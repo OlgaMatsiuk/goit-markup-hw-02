@@ -14,3 +14,6 @@ letter-spacing: 0.03em;
 a{
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
