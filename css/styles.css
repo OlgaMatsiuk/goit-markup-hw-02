@@ -1,3 +1,8 @@
+body{
+    background-color:#FFFFFF;
+    color: #757575;
+     
+}
 .logo{
     font-family: Raleway;
     color: #000;
@@ -14,6 +19,95 @@ letter-spacing: 0.03em;
 a{
     text-decoration: none;
 }
-ul{
+.list{
     list-style: none;
 }
+
+.navigacion .studio{
+    color: #2196F3;
+}
+.navigacion .link{
+    color: #212121;
+
+}
+.navigacion .studio:hover,
+.navigacion .studio:focus{
+    color: rgb(0,0,238);
+}
+.navigacion .link:hover,
+.navigacion .link:focus{
+    color: rgb(0,0,238);
+}
+.contacts .mail{
+    color: #2196F3;
+}
+.contacts .telefon{
+    color: #212121;
+}
+.hero .hero-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 44px;
+    line-height: 1.36;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color:#2F303A ;
+} 
+
+
+.section-title{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700px;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+/* наши качества*/
+.quality .quality-title{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700px;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.quality .quality-text{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400px;
+font-size: 14px;
+line-height: 1.71;
+}
+.team .team-name{
+    font-family: Roboto;
+    color: #212121;
+font-style: normal;
+font-weight: 500px;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.team .team-prof{
+    font-family: Roboto;
+    color: #757575;
+font-style: normal;
+font-weight: 400px;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/*основной цвет #212121 */
+/*вторичный цвет #757575 */
+/*белый цвет #FFFFFF */
+/*цвет акцента #2196F3 */
+/*цвет адрес и телефон rgba(255,255,255,0.6) */
+/*цвет фона серый дополнительный #F5F4FA */
+/*цвет фона #FFFFFF */
+/* цвет фона вторичный #2F303A*/
