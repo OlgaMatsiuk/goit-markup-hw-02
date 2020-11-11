@@ -12,6 +12,15 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 }
+.logo-white{
+    font-family: Raleway;
+    color: #FFFFFF;
+font-style: normal;
+font-weight: 700px;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
 .logo-web{
     color: #2196F3;
 
@@ -19,7 +28,7 @@ letter-spacing: 0.03em;
 a{
     text-decoration: none;
 }
-.list{
+ul{
     list-style: none;
 }
 
@@ -30,17 +39,17 @@ a{
     color: #212121;
 
 }
-.navigacion .studio:hover,
-.navigacion .studio:focus{
-    color: rgb(0,0,238);
+.header a:hover,
+.header a:focus{
+    color: #CD5700;
 }
-.navigacion .link:hover,
+/*.navigacion .link:hover,
 .navigacion .link:focus{
     color: rgb(0,0,238);
-}
+}*/
 .contacts .mail{
     color: #2196F3;
-}
+} 
 .contacts .telefon{
     color: #212121;
 }
@@ -56,8 +65,21 @@ a{
     color: #FFFFFF;
     background-color:#2F303A ;
 } 
-
-
+.hero-button{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 700px;
+font-size: 16px;
+line-height: 1.88;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+.section-team{
+    background-color:#F5F4FA ;
+}
 .section-title{
     font-family: Roboto;
 font-style: normal;
@@ -102,6 +124,27 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
+}
+.footer{
+background-color:#2F303A ;
+}
+.footer .address{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400px;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer .address-tel{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400px;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
 /*основной цвет #212121 */
 /*вторичный цвет #757575 */
