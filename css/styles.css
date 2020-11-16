@@ -24,7 +24,7 @@ ul{
     list-style: none;
 }
 .logo{
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     color: var(--logo-color);
 font-weight: 700;
 font-size: 26px;
@@ -32,7 +32,6 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 }
 .logo-white{
-    font-family: Raleway;
     color: var(--additional-color);
 font-weight: 700;
 font-size: 26px;
@@ -56,14 +55,11 @@ letter-spacing: 0.03em;
 }
 .header a:hover,
 .header a:focus{
-    color: #CD5700;
+    color: var(--accent-color);
 }
 
-.contacts .mail{
-    color: var(--accent-color);
-} 
 .contacts .telefon{
-    color: var(--secondary-color);
+    color: var(--main-color);
 }
 .hero .hero-title{
     font-weight: 900;
@@ -88,14 +84,16 @@ background-color: var(--accent-color);
     background-color: var(--bgc-additional) ;
 }
 .section-title{
-font-weight: 700;
+color: var(--secondary-color);
+    font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 }
 /* наши качества*/
 .quality .quality-title{
-font-weight: 700;
+color: var(--secondary-color);
+    font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
@@ -130,9 +128,11 @@ letter-spacing: 0.03em;
 }
 .footer .address{
 color: var(--additional-color);
+font-style: normal;
 }
 .footer .address-tel{
 color: var(--contacts-color);
+font-style: normal;
 }
 /*стили Портфолио*/
 .portfolio h2{
@@ -151,16 +151,18 @@ color: var(--main-color);
 
 }
 .filter-button{
-    font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--secondary-color);
+font-family: Roboto, sans-serif; 
 }
 .filter .filter-button:hover,
 .filter .filter-button:focus{
-    color: #CD5700;
+    color: var(--additional-color);
+    background-color: var(--accent-color);
+
 }
 
