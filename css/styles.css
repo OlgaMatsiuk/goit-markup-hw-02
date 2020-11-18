@@ -34,6 +34,7 @@ letter-spacing: 0.03em;
 .logo-white{
     color: var(--additional-color);
 font-weight: 700;
+font-family: Raleway, sans-serif;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -53,11 +54,14 @@ letter-spacing: 0.03em;
 .navigacion .link{
     color: var(--secondary-color);
 }
-.header a:hover,
-.header a:focus{
+.header .navigacion :hover,
+.header .navigacion :focus{
     color: var(--accent-color);
 }
-
+.header .contacts :hover,
+.header .contacts :focus{
+    color: var(--accent-color);
+}  
 .contacts .telefon{
     color: var(--main-color);
 }
